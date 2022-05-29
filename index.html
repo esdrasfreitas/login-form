@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8dedbff37b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+        <div class="container">
+
+            <div class="form-group">
+
+                <div class="header-form">
+                    <h1>Faça seu login</h1>
+                    <p>Complete com suas informações de cadastro</p>
+                </div>
+
+                <form>
+
+                    <div class="databased-content">
+                        <label for="email">E-mail</label>
+
+
+                        <div class="input-container">
+                            <input id="input-form" type="email" name="email" required placeholder="digite seu e-mail">
+                            <i class="fa fa-envelope" aria-hidden="true" id="icon-input"></i>
+                        </div>
+
+
+                        <label for="senha">Senha</label>
+                         <div class="input-container">
+                         
+                         <input id="input-form" type="password" name="senha" maxlength="10" required placeholder="digite sua senha">
+                         <i class="fa-solid fa-lock" id="icon-input"></i>
+                       </div>
+                    </div>
+
+                    <div class="content-password">
+                        <div>
+                            <input type="checkbox" name="lembre-me" id="lembre-me">
+                            <label for="lembre-me">Lembre-me</label>
+                        </div>
+
+                        <span class="reminder">Esqueci minha senha</span>
+
+                    </div>
+
+                    <div class="btn-submit-wrapper">
+                        <button type="submit" id="btn-submit">Entrar</button>
+                    </div>
+
+                    <p>Não tem uma conta? Registre-se</p>
+
+                </form>
+
+            </div>
+
+        </div>
+
+        <div class="containerImage">
+            <img src="https://images.unsplash.com/photo-1508669232496-137b159c1cdb?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=60&raw_url=true&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Njl8fG5hdHVyZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500"
+                alt="image," class="image">
+        </div>
+
+    </div>
+</body>
+
+</html>
